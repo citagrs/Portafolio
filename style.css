@@ -2,8 +2,37 @@ body{
     background: #ccd6ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#banner{
+    width: 100%;
+    border: 5px solid;
+}
 h1{
     text-align: center;
+}
+#caja1{
+    background: #5f61fc;
+    padding: 2%;
+    margin: 2%;
+    border: 5px solid;
+}
+.lista{
+    font-style: italic;
+}
+ul{
+    display: inline-block;/*indica que el espacio que ocupa, solo use el que necesita*/
+    vertical-align: top;/*alineacion*/
+    width: 40%;
+    margin-right: 30%;
+}
+.perfil{
+    width: 15%;
+
+}
+#caja2{
+    background: #5f61fc;
+    padding: 5%;
+    margin: 2%;
+    border: 5px solid;
 }
 h2{
     text-align: center;
@@ -12,6 +41,9 @@ h2{
     font-size: 20px; 
     text-align: justify;
     background: #cccccc;
+    padding: 5%;
+    margin: 2%;
+    border: 10px solid;
 }
 strong{
     color: crimson;
