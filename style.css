@@ -2,6 +2,40 @@ body{
     background: #ccd6ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    background: rgb(60, 60, 70);
+    height: 9vh;
+}
+.techo{
+    width: 80%;
+    margin: 0 auto;
+
+}
+#logo {
+    height: 8vh;
+    float: left;
+    padding: 0.5vh;
+}
+nav{
+    position: absolute;
+    top:3.5vh;
+    right: 9%;
+}
+
+nav ul {
+    display: ruby;
+    margin: 0 0 0 2%;
+}
+nav a{
+    font-family: Tahora;
+    text-transform: uppercase;
+    color:#cccccc;
+    font-weight: bold;
+    font-size: 1vw;
+    text-decoration: none;
+    margin: 0 0 0 1.5vw;
+
+}
 #banner{
     width: 100%;
     border: 5px solid;
