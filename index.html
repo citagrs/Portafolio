@@ -8,6 +8,7 @@
     <title>Portafio de Oscar Cita</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="datos-iniciales.css" />
     <link rel="stylesheet" href="portafolio.css" />
     <link rel="stylesheet" href="footer.css" />
   </head>
@@ -17,7 +18,7 @@
         <h1><img id="logo" src="media/b-cita-fb.png" /></h1>
         <nav>
           <ul class="navegacion">
-            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#caja1">Sobre mi</a></li>
             <li><a href="#hobbies">Hobbies y Soft Skills</a></li>
             <li><a href="#formacion">Formaciones y Cursos</a></li>
             <li><a href="#proyectos">Proyectos Realizados</a></li>
@@ -26,48 +27,68 @@
       </div>
     </header>
     <img id="banner" src="media/banner.jpg" />
-    <main>
-      <div id="caja1">
-        <h2>Datos personales</h2>
-        <h3>Redes sociales</h3>
+    <div id="caja0">
+      <img class="perfil" src="media/perfil.png" />
+    </div>
 
-        <ul class="datos-personales">
-          <li class="lista">Nombre: Oscar Daniel Cita</li>
-          <li class="lista">Edad: 28</li>
-          <li class="lista">Nacionalidad: Colombiano</li>
-          <li class="lista">Biografia:</li>
+    <main>
+      <div id="caja1" class="seccion">
+        <ul class="lista-uno">
+          <ul>
+            <ul id="datos-personales">
+              <li class="lista">Nombre: Oscar Daniel Cita</li>
+              <li class="lista">Edad: 28</li>
+              <li class="lista">Nacionalidad: Colombiano</li>
+              <li class="lista">Biografia:</li>
+            </ul>
+            <ul id="redes-s">
+              <li>
+                <img src="media/linkedin.png" />
+              </li>
+              <li>
+                <img src="media/github.png" />
+              </li>
+              <li>
+                <img src="media/facebook.png" />
+              </li>
+            </ul>
+          </ul>
+        </ul>
+        <ul class="lista-uno">
+          <h2>Sobre mi:</h2>
+
+          <p id="parrafo">
+            Inicie mi experiencia laboral en el area de tecnología e información
+            como analista de sistemas realizando soporte y dando soluciones al
+            cliente final, actualmente me encuentro realizando diferentes cursos
+            y diplomados en desarrollo de software y desarrollo Web y busco una
+            oportunidad para obtener experiencia como desarrollador frontend.
+            Cuento con habilidades como la iniciativa y el trabajo en equipo.
+            Poseo conocimientos en diferentes lenguajes de programación como
+            <strong
+              >JavaScript, Java (jsp,mvc,spring boot), Python, C++, php, html y
+              CSS y en bases de datos MySql</strong
+            >
+            la mayoría certificables, adicional con experiencia trabajando
+            usando la metodología Scrum. Actualmente, me encuentro trabajando
+            como analista de sistemas e invirtiendo mi tiempo libre en reforzar
+            mis conocimientos en desarrollo con Oracle Next Education.
+          </p>
         </ul>
 
-        <img class="perfil" src="media/perfil.png" />
+        <ul class="datos-personales"></ul>
       </div>
 
-      <div id="caja2">
-        <h2>Sobre mi:</h2>
-
-        <p id="parrafo">
-          Inicie mi experiencia laboral en el area de tecnología e información
-          como analista de sistemas realizando soporte y dando soluciones al
-          cliente final, actualmente me encuentro realizando diferentes cursos y
-          diplomados en desarrollo de software y desarrollo Web y busco una
-          oportunidad para obtener experiencia como desarrollador frontend.
-          Cuento con habilidades como la iniciativa y el trabajo en equipo.
-          Poseo conocimientos en diferentes lenguajes de programación como
-          <strong
-            >JavaScript, Java (jsp,mvc,spring boot), Python, C++, php, html y
-            CSS y en bases de datos MySql</strong
-          >
-          la mayoría certificables, adicional con experiencia trabajando usando
-          la metodología Scrum. Actualmente, me encuentro trabajando como
-          analista de sistemas e invirtiendo mi tiempo libre en reforzar mis
-          conocimientos en desarrollo con Oracle Next Education.
-        </p>
+      <div id="caja2" class="seccion">
+        <h3 id="hobbies">Hobbies y Soft Skills</h3>
       </div>
-      <h3 id="hobbies">Hobbies y Soft Skills</h3>
-      <div></div>
-      <h3 id="formacion">Formacion y Cursos</h3>
-      <div></div>
-      <h3 id="proyectos">Proyectos Realizados</h3>
-      <div class="caja-portafolio">
+      
+      <div class="seccion">
+        <h3 id="formacion">Formacion y Cursos</h3>
+      </div>
+      
+      <div id="caja-portafolio" class="seccion">
+        <h3 id="proyectos">Proyectos Realizados</h3>
         <ul class="lista-portafolio">
           <li>
             <h2>Juego ahorcado</h2>
@@ -85,16 +106,16 @@
     <footer>
       <ul>
         <li>
-          <img src="media/linkedin.png">
+          <img src="media/linkedin.png" />
         </li>
         <li>
-          <img src="media/github.png">
+          <img src="media/github.png" />
         </li>
         <li>
-          <img src="media/facebook.png">
+          <img src="media/facebook.png" />
         </li>
       </ul>
-      <br>
+      <br />
       <p>Realizado por Oscar Cita © 2022</p>
     </footer>
   </body>

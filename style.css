@@ -1,9 +1,9 @@
 body{
-    background: #ccd6ff;
+    background:#d1d0d0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    background: rgb(60, 60, 70);
+    background-color:rgb(32, 58, 58);
     height: 9vh;
 }
 .techo{
@@ -30,7 +30,7 @@ nav ul {
 nav a{
     font-family: Tahora;
     text-transform: uppercase;
-    color:#cccccc;
+    color:#ffffff;
     font-weight: bold;
     font-size: 1vw;
     text-decoration: none;
@@ -39,17 +39,38 @@ nav a{
 nav a:hover{ /*cuando pasa el mouse "hover"*/
     color: cornflowerblue;
 }
+.seccion{
+    width: 90%;
+    margin: 0 auto;
+    border: 0 solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
 
-
+}
+.seccion:hover{
+    background-color: rgb(228, 227, 227);
+}
 #banner{
     width: 100%;
     border: 5px solid;
 }
-#caja1{
-    background: #5f61fc;
-    padding: 2%;
-    margin: 2%;
-    border: 5px solid;
+#caja0{
+    width: 90%;
+    margin: 0 auto;
+}
+.perfil{
+    margin-top: -150px;
+    width: 18%;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+h3{
+    font-size: 30px;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 .lista{
     font-style: italic;
@@ -57,26 +78,10 @@ nav a:hover{ /*cuando pasa el mouse "hover"*/
 .datos-personales li{
     display: inline-block;/*indica que el espacio que ocupa, solo use el que necesita*/
     vertical-align: top;/*alineacion*/
-    width: 40%;
-    margin-right: 30%;
-}
-.perfil{
-    width: 15%;
-
-}
-#caja2{
-    background: #5f61fc;
-    padding: 5%;
-    margin: 2%;
-    border: 5px solid;
 }
 #parrafo{
     font-size: 20px; 
     text-align: justify;
-    background: #cccccc;
-    padding: 5%;
-    margin: 2%;
-    border: 10px solid;
 }
 strong{
     color: crimson;
