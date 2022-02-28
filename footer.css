@@ -1,0 +1,29 @@
+footer {
+    top:3.5vh;
+    right: 9%;
+    text-align: center;
+    margin: 5px auto;
+    background-color:rgb(32, 58, 58);
+}
+footer img{
+    width: 40px;
+    filter: invert(0.9);
+    padding: 10px 20px 10px 20px;
+}
+footer img:hover{
+    width: 42px;
+    padding: 10px 20px 8px 20px;
+}
+footer ul{
+    margin: 20px;
+}
+footer li{
+    display: inline-block;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}

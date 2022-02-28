@@ -1,0 +1,41 @@
+.img-portafolio{
+    height: 10vw;
+    padding-bottom: 30px;
+
+}
+.lista-portafolio{
+    width: 90%;
+    margin: 0 auto;
+    vertical-align: top;/*alineacion: hacia arriba*/
+    
+}
+.lista-portafolio li{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background: #ffffff;
+    margin: 0 1.5%; /*Espacio entre cajas */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    height: 390px;
+    vertical-align: top;
+    border: 3px solid black;
+    border-radius: 3%;
+}
+.lista-portafolio li:hover{
+    border-color: dodgerblue;
+}
+.lista-portafolio h2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.lista-portafolio li:hover h2{
+    font-size: 1.6vw;
+}
+.lista-portafolio p{
+    padding-bottom: 30px;
+}
+
