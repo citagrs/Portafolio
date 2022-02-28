@@ -60,29 +60,11 @@ nav a:hover{ /*cuando pasa el mouse "hover"*/
     width: 90%;
     margin: 0 auto;
 }
-.perfil{
-    margin-top: -150px;
-    width: 18%;
-    border-radius: 50%;
-    border: 5px solid black;
 
-}
 h3{
     font-size: 30px;
     margin: 0 auto;
     padding-bottom: 40px;
 }
-.lista{
-    font-style: italic;
-}
-.datos-personales li{
-    display: inline-block;/*indica que el espacio que ocupa, solo use el que necesita*/
-    vertical-align: top;/*alineacion*/
-}
-#parrafo{
-    font-size: 20px; 
-    text-align: justify;
-}
-strong{
-    color: crimson;
-}
+
+
