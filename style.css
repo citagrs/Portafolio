@@ -8,6 +8,7 @@ header{
 }
 .techo{
     width: 80%;
+    position: relative;
     margin: 0 auto;
 
 }
@@ -34,14 +35,15 @@ nav a{
     font-size: 1vw;
     text-decoration: none;
     margin: 0 0 0 1.5vw;
-
 }
+nav a:hover{ /*cuando pasa el mouse "hover"*/
+    color: cornflowerblue;
+}
+
+
 #banner{
     width: 100%;
     border: 5px solid;
-}
-h1{
-    text-align: center;
 }
 #caja1{
     background: #5f61fc;
@@ -52,7 +54,7 @@ h1{
 .lista{
     font-style: italic;
 }
-ul{
+.datos-personales li{
     display: inline-block;/*indica que el espacio que ocupa, solo use el que necesita*/
     vertical-align: top;/*alineacion*/
     width: 40%;
@@ -67,9 +69,6 @@ ul{
     padding: 5%;
     margin: 2%;
     border: 5px solid;
-}
-h2{
-    text-align: center;
 }
 #parrafo{
     font-size: 20px; 
