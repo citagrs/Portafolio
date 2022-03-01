@@ -1,0 +1,17 @@
+form{
+
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 7px 7px;
+    width: 35%;
+}
+form #enviar{
+    padding: 10px 30px;
+}
