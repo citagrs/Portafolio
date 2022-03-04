@@ -47,6 +47,7 @@ nav a:hover{ /*cuando pasa el mouse "hover"*/
     padding: 20px;
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
+    transition: 0.5s all;
 
 }
 .seccion:hover{
