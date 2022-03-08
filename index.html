@@ -12,11 +12,23 @@
     <link rel="stylesheet" href="portafolio.css" />
     <link rel="stylesheet" href="contacto.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
   </head>
   <body>
     <header>
       <div class="techo">
-        <h1><img id="logo" src="media/b-cita-fb.png" alt="Logo"/></h1>
+        <h1><img id="logo" src="media/b-cita-fb.png" alt="Logo" /></h1>
         <nav>
           <ul class="navegacion">
             <li><a href="#caja1">Sobre mi</a></li>
@@ -83,22 +95,30 @@
       <div id="caja2" class="seccion">
         <h3 id="hobbies">Hobbies y Soft Skills</h3>
       </div>
-      
+
       <div class="seccion">
         <h3 id="formacion">Formacion y Cursos</h3>
       </div>
-      
+
       <div id="caja-portafolio" class="seccion">
         <h3 id="proyectos">Proyectos Realizados</h3>
         <ul class="lista-portafolio">
           <li>
             <h2>Juego ahorcado</h2>
-            <img class="img-portafolio" src="media/homero.png" alt="Imagen de referencia"/>
+            <img
+              class="img-portafolio"
+              src="media/homero.png"
+              alt="Imagen de referencia"
+            />
             <p>Uso de Javascript, CSS y HTML</p>
           </li>
           <li>
             <h2>Encriptador</h2>
-            <img class="img-portafolio" src="media/encriptador.png" alt="Imagen de referencia"/>
+            <img
+              class="img-portafolio"
+              src="media/encriptador.png"
+              alt="Imagen de referencia"
+            />
             <p>Uso de Javascript, CSS y HTML.</p>
           </li>
         </ul>
@@ -106,24 +126,52 @@
       <div class="seccion">
         <h3 id="contact">Contacto</h3>
         <form>
-          <label for="form-nombre" >Nombre y apellido: </label>
-          <input type="text" id="form-nombre" required>
+          <label for="form-nombre">Nombre y apellido: </label>
+          <input type="text" id="form-nombre" required />
           <label for="form-email">Correo: </label>
-          <input type="email" id="form-email" required placeholder="email@dominio.com"> 
+          <input
+            type="email"
+            id="form-email"
+            required
+            placeholder="email@dominio.com"
+          />
           <label for="form-tel">Telefono: </label>
-          <input type="tel" id="form-tel" required placeholder="+57 0123456789">
+          <input
+            type="tel"
+            id="form-tel"
+            required
+            placeholder="+57 0123456789"
+          />
           <label for="form-men">Mensaje: </label>
           <textarea cols="70" rows="10" id="form-men" required></textarea>
-          <input id="enviar" type="submit" value="Enviar Datos">
-
+          <input id="enviar" type="submit" value="Enviar Datos" />
         </form>
       </div>
     </main>
     <footer>
+      <div
+        class="badge-base LI-profile-badge"
+        data-locale="es_ES"
+        data-size="large"
+        data-theme="dark"
+        data-type="HORIZONTAL"
+        data-vanity="b1cita"
+        data-version="v1"
+      >
+        <a
+          class="badge-base__link LI-simple-link"
+          href="https://co.linkedin.com/in/b1cita?trk=profile-badge"
+          ></a
+        >
+      </div>
+
       <ul>
-        <li>
+        <!--
+          <li>
           <img src="media/linkedin.png" />
         </li>
+        -->
+        
         <li>
           <img src="media/github.png" />
         </li>

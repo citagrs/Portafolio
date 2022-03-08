@@ -5,6 +5,11 @@ footer {
     margin: 5px auto;
     background-color:rgb(32, 58, 58);
 }
+footer div{
+    margin-top: 40px;
+    display: inline-block;
+    align-items: center;
+}
 footer img{
     width: 40px;
     filter: invert(0.9);
