@@ -1,0 +1,33 @@
+@media screen and (max-width:480px){
+    nav a{
+        font-size: 10px;
+        margin: 0 0 0 0.5vw;
+    }
+    /**************************Sobre mi*/
+    .lista-uno{
+        display: contents;
+    }
+
+    /****************************Portafolio*/
+    .lista-portafolio li{
+        display: inline-block;
+        width: 80%;
+        padding: 20px 20px;
+        height: 250px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .lista-portafolio{
+        display: flex;
+        
+    }
+
+    /********************************formulario de contacto*/
+
+    form input, textarea{
+        margin-left: 2px;
+        width: 90%;
+    }
+
+
+}
