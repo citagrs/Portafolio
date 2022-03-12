@@ -3,6 +3,12 @@
         font-size: 10px;
         margin: 0 0 0 0.5vw;
     }
+    header nav ul li a{
+        font-size: 12px;
+    }
+    #logo {
+        height: 6vh;
+    }   
     /**************************Sobre mi*/
     .lista-uno{
         display: contents;

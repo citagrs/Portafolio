@@ -2,44 +2,6 @@ body{
     background:#d1d0d0;
     font-family: 'Nunito Sans', sans-serif;
 }
-header{
-    background-color:rgb(32, 58, 58);
-    height: 9vh;
-}
-.techo{
-    width: 80%;
-    position: relative;
-    margin: 0 auto;
-
-}
-#logo {
-    height: 8vh;
-    float: left;
-    padding: 0.5vh;
-}
-nav{
-    font-family: 'Titillium Web', sans-serif;
-    position: absolute;
-    top:3.5vh;
-    right: 9%;
-}
-
-nav ul {
-    display: ruby;
-    margin: 0 0 0 2%;
-}
-nav a{
-    
-    text-transform: uppercase;
-    color:#ffffff;
-    font-weight: bold;
-    font-size: 1vw;
-    text-decoration: none;
-    margin: 0 0 0 1.5vw;
-}
-nav a:hover{ /*cuando pasa el mouse "hover"*/
-    color: cornflowerblue;
-}
 .seccion{
     width: 90%;
     margin: 0 auto;

@@ -1,0 +1,33 @@
+.cabecera{
+    background-color:rgb(32, 58, 58);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;/*distribuir contenido*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cabecera .logo {
+    height: 8vh;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.menu{
+    font-family: 'Titillium Web', sans-serif;
+}
+.lista-menu {
+    display: flex;
+}
+.lista-menu .item {
+    list-style: none;
+}
+.lista-menu .item a{
+    
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0 0 0 1.5vw;
+}
+.lista-menu .item a:hover{ /*cuando pasa el mouse "hover"*/
+    color: cornflowerblue;
+}
