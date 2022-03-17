@@ -4,11 +4,14 @@
   <!--Indica el idioma de la pagina, el 419 es el latino-->
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" />
     <!--Indica el diccionario de la pagina-->
     <title>Portafio de Oscar Cita</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cabecera/menu/menu.css" />
+    <link rel="stylesheet" href="css/cabecera/banner/banner.css" />
+    <link rel="stylesheet" href="css/secciones/sobremi.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/movil.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,82 +29,60 @@
   </head>
   <body>
     <header class="cabecera">
-        <img class="logo" src="media/b-cita-fb.png" alt="Logo" />
-        <nav class="menu">
-          <ul class="lista-menu">
-            <li class="item"><a href="#hobbies">Hobbies & Soft Skills</a></li>
-            <li class="item"><a href="#formacion">Formacion</a></li>
-            <li class="item"><a href="#proyectos">Proyectos</a></li>
-            <li class="item"><a href="#contact">Contacto</a></li>
-          </ul>
-        </nav>
+      <img class="cabecera__logo" src="media/b-cita-fb.png" alt="Logo" />
+      <nav class="cabecera__menu">
+        <ul class="cabecera__lista__menu">
+          <li class="cabecera__item">
+            <a href="#hobbies">Hobbies & Soft Skills</a>
+          </li>
+          <li class="cabecera__item"><a href="#formacion">Formacion</a></li>
+          <li class="cabecera__item"><a href="#proyectos">Proyectos</a></li>
+          <li class="cabecera__item"><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <img id="banner" src="media/banner.jpg" />
-    <div id="caja0">
-      <img class="perfil" src="media/perfil.png" alt="Foto de perfil" />
-    </div>
-
+    <img class="banner" src="media/banner.jpg" />
     <main>
-      <div id="caja1" class="seccion">
-        <ul class="lista-uno">
-          <ul>
-            <ul id="datos-personales">
-              <li class="lista">Nombre: Oscar Daniel Cita</li>
-              <li class="lista">Edad: 28</li>
-              <li class="lista">Nacionalidad: Colombiano</li>
-              <p><strong>Redes Sociales: </strong></p>
-            </ul>
-            
-            <ul id="redes-s">
-              <li>
-                <div
-                  class="badge-base LI-profile-badge"
-                  data-locale="es_ES"
-                  data-size="large"
-                  data-theme="dark"
-                  data-type="HORIZONTAL"
-                  data-vanity="b1cita"
-                  data-version="v1"
-                >
-                  <a
-                    class="badge-base__link LI-simple-link"
-                    href="https://co.linkedin.com/in/b1cita?trk=profile-badge"
-                  ></a>
-                </div>
-              </li>
-              <li>
-                <img src="media/github.png" />
-              </li>
-              <li>
-                <img src="media/facebook.png" />
+      <section class="sobremi">
+        <div class="sobremi__parte1">
+          <div class="sobremi__foto__div">
+            <img
+            class="sobremi__foto"
+            src="media/perfil.png"
+            alt="Foto de perfil"
+          />
+          </div>
+          
+          <div>
+            <h1 class="sobremi__titulo">Oscar Daniel Cita</h1>
+            <p class="sobremi__parrafo">
+              Apacionado por el desarrollo, actualmente me encuentro realizando
+              diferentes cursos y diplomados en desarrollo de software y
+              desarrollo Web y busco una oportunidad para obtener experiencia
+              como desarrollador.
+            </p>
+          </div>
+        </div>
+        <div class="sobremi__parte2">
+          <div class="sobremi__datos">
+            <ul class="sobremi__datos__lista">
+              <li class="sobremi__lista__item"><strong>Edad:</strong> 28</li>
+              <li class="sobremi__lista__item">
+                <strong>Nacionalidad:</strong> Colombiano
               </li>
             </ul>
-          </ul>
-        </ul>
-        <ul class="lista-uno">
-          <h2>Sobre mi</h2>
-
-          <p id="parrafo">
-            Inicie mi experiencia laboral en el area de tecnología e información
-            como analista de sistemas realizando soporte y dando soluciones al
-            cliente final, actualmente me encuentro realizando diferentes cursos
-            y diplomados en desarrollo de software y desarrollo Web y busco una
-            oportunidad para obtener experiencia como desarrollador frontend.
-            Cuento con habilidades como la iniciativa y el trabajo en equipo.
-            Poseo conocimientos en diferentes lenguajes de programación como
-            <strong
-              >JavaScript, Java (jsp,mvc,spring boot), Python, C++, php, html y
-              CSS y en bases de datos MySql</strong
-            >
-            la mayoría certificables, adicional con experiencia trabajando
-            usando la metodología Scrum. Actualmente, me encuentro trabajando
-            como analista de sistemas e invirtiendo mi tiempo libre en reforzar
-            mis conocimientos en desarrollo con Oracle Next Education.
-          </p>
-        </ul>
-
-        <ul class="datos-personales"></ul>
-      </div>
+          </div>
+          <div>
+            <h3 class="sobremi__parte2__titulo">Redes Sociales</h3>
+            <ul class="sobremi__redes">
+              <li class="sobremi__redes__item"><a href="https://www.facebook.com/b1cita/"><img src="media/color_fb.png" /></a></li>
+              <li class="sobremi__redes__item"><img src="media/color_lin.png" /></li>
+              <li class="sobremi__redes__item"><img src="media/color_ins.png" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div id="caja1" class="seccion"></div>
 
       <div id="caja2" class="seccion">
         <h3 id="hobbies">Hobbies y Soft Skills</h3>

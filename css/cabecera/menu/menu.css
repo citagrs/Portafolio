@@ -6,21 +6,21 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.cabecera .logo {
+.cabecera__logo {
     height: 8vh;
     margin-top: 4px;
     margin-bottom: 4px;
 }
-.menu{
+.cabecera__menu{
     font-family: 'Titillium Web', sans-serif;
 }
-.lista-menu {
+.cabecera__lista__menu {
     display: flex;
 }
-.lista-menu .item {
+.cabecera__item {
     list-style: none;
 }
-.lista-menu .item a{
+.cabecera__item a{
     
     text-transform: uppercase;
     color:#ffffff;
@@ -28,6 +28,6 @@
     text-decoration: none;
     margin: 0 0 0 1.5vw;
 }
-.lista-menu .item a:hover{ /*cuando pasa el mouse "hover"*/
+.cabecera__item a:hover{ /*cuando pasa el mouse "hover"*/
     color: cornflowerblue;
 }

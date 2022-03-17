@@ -11,14 +11,9 @@ body{
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
     transition: 0.5s all;
-
 }
 .seccion:hover{
     background-color: rgb(228, 227, 227);
-}
-#banner{
-    width: 100%;
-    border: 5px solid;
 }
 #caja0{
     width: 90%;
@@ -73,10 +68,6 @@ h3{
 #parrafo{
     font-size: 2vh; 
     text-align: justify;
-}
-
-strong{
-    color: crimson;
 }
 
 /***************************SECCION DE PORTAFOLIO*/
