@@ -15,15 +15,51 @@
     text-transform: uppercase;
     text-align: center;
     color: #0071BC;
+    padding-bottom: 1rem;
+
 }
 .hobbies-skills:hover{
     background-color: rgb(255, 255, 255);
     opacity: 1;
 }
 .hs-items{
-
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around; /*para que quede uno al lado del otro*/
+}
+.hs-items__1{
+    padding-bottom: 4rem;
 }
 .hs-item{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+}
+.hs-item__titulo{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+.hs__imagen {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;/*Centrar imagen*/
+    height: 15vw;
+    width: 15vw;
+    margin-bottom: 1rem;
+}
+.hs-item__skill__imagen1{
+    background-image: url("../../media/skills/js.png");
+}
+.hs-item__skill__imagen2{
+    background-image: url("../../media/skills/html5.png");
+}
+.hs-item__skill__imagen3{
+    background-image: url("../../media/skills/css3.png");
+}
+.hs-item__skill__imagen4{
+    background-image: url("../../media/skills/php.png");
+}
+.hs-item__skill__imagen5{
+    background-image: url("../../media/skills/java.png");
+    background-size: cover;
 }
