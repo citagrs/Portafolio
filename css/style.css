@@ -1,5 +1,5 @@
 body{
-    background:#d1d0d0;
+    background-image: url(../media/wall.jpg);
     font-family: 'Nunito Sans', sans-serif;
 }
 .seccion{
@@ -11,19 +11,10 @@ body{
     margin-top: 40px;
     background-color: rgb(255, 255, 255);
     transition: 0.5s all;
+    opacity: 0.5;
 }
 .seccion:hover{
     background-color: rgb(228, 227, 227);
-}
-#caja0{
-    width: 90%;
-    margin: 0 auto;
-}
-
-h3{
-    font-size: 30px;
-    margin: 0 auto;
-    padding-bottom: 40px;
 }
 
 /*****************************SECCION DE DATOS INICIALES*/

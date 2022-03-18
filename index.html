@@ -12,12 +12,19 @@
     <link rel="stylesheet" href="css/cabecera/menu/menu.css" />
     <link rel="stylesheet" href="css/cabecera/banner/banner.css" />
     <link rel="stylesheet" href="css/secciones/sobremi.css" />
+    <link rel="stylesheet" href="css/secciones/hobbies-skills.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/movil.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
       rel="stylesheet"
     />
     <script
@@ -32,6 +39,7 @@
       <img class="cabecera__logo" src="media/b-cita-fb.png" alt="Logo" />
       <nav class="cabecera__menu">
         <ul class="cabecera__lista__menu">
+          <li class="cabecera__item"><a href="#sobremi">Sobre mi</a></li>
           <li class="cabecera__item">
             <a href="#hobbies">Hobbies & Soft Skills</a>
           </li>
@@ -43,16 +51,16 @@
     </header>
     <img class="banner" src="media/banner.jpg" />
     <main>
-      <section class="sobremi">
+      <section class="sobremi" id="sobremi">
         <div class="sobremi__parte1">
           <div class="sobremi__foto__div">
             <img
-            class="sobremi__foto"
-            src="media/perfil.png"
-            alt="Foto de perfil"
-          />
+              class="sobremi__foto"
+              src="media/perfil.png"
+              alt="Foto de perfil"
+            />
           </div>
-          
+
           <div>
             <h1 class="sobremi__titulo">Oscar Daniel Cita</h1>
             <p class="sobremi__parrafo">
@@ -60,6 +68,16 @@
               diferentes cursos y diplomados en desarrollo de software y
               desarrollo Web y busco una oportunidad para obtener experiencia
               como desarrollador.
+            </p>
+            <br />
+            <br />
+            <p class="sobremi__parrafo">
+              Inicie mi experiencia laboral en el area de tecnología e
+              información como analista de sistemas realizando soporte y dando
+              soluciones al cliente final. Actualmente, me encuentro trabajando
+              como analista de sistemas e invirtiendo mi tiempo libre en
+              reforzar mis conocimientos en desarrollo con Oracle Next
+              Education.
             </p>
           </div>
         </div>
@@ -73,16 +91,74 @@
             </ul>
           </div>
           <div>
-            <h3 class="sobremi__parte2__titulo">Redes Sociales</h3>
             <ul class="sobremi__redes">
-              <li class="sobremi__redes__item"><a href="https://www.facebook.com/b1cita/"><img src="media/color_fb.png" /></a></li>
-              <li class="sobremi__redes__item"><img src="media/color_lin.png" /></li>
-              <li class="sobremi__redes__item"><img src="media/color_ins.png" /></li>
+              <li class="sobremi__redes__item">
+                <a href="https://www.facebook.com/b1cita/"
+                  ><img src="media/color_fb.png"
+                /></a>
+              </li>
+              <li class="sobremi__redes__item">
+                <a href="https://www.linkedin.com/in/b1cita/"
+                  ><img src="media/color_lin.png"
+                /></a>
+              </li>
+              <li class="sobremi__redes__item">
+                <a href="https://www.instagram.com/oscar.cita/"
+                  ><img src="media/color_ins.png"
+                /></a>
+              </li>
             </ul>
           </div>
         </div>
       </section>
-      <div id="caja1" class="seccion"></div>
+      <section class="hobbies-skills" id="hobbies-skills">
+        <div class="hobbies-skills__hobbies">
+          <h3 class="hobbies-skills__hobbies__titulo">Hobbies</h3>
+          <div class="hs-items">
+            <div class="hs-item">
+              <div class="hs-item__imagen1"></div>
+              <span class="hs-item__titulo">Natacion</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen2"></div>
+              <span class="hs-item__titulo">Jugar con mis perros</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen3"></div>
+              <span class="hs-item__titulo">Ver peliculas</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen4"></div>
+              <span class="hs-item__titulo">Comer empanadas</span>
+            </div>
+          </div>
+        </div>
+        <div class="hobbies-skills__skills">
+          <h3 class="hobbies-skills__skills__titulo">Skills</h3>
+          <div class="hs-items">
+            <div class="hs-item">
+              <div class="hs-item__imagen1"></div>
+              <span class="hs-item__titulo">JavaScript</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen2"></div>
+              <span class="hs-item__titulo">HTML 5</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen3"></div>
+              <span class="hs-item__titulo">CSS 3</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen4"></div>
+              <span class="hs-item__titulo">JAVA</span>
+            </div>
+            <div class="hs-item">
+              <div class="hs-item__imagen4"></div>
+              <span class="hs-item__titulo">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div id="caja2" class="seccion">
         <h3 id="hobbies">Hobbies y Soft Skills</h3>
