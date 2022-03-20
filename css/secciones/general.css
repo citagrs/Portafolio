@@ -1,0 +1,11 @@
+.secciones{
+    width: 90%;
+    margin: 0 auto;
+    border: 0 solid;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 40px;
+    background-color: rgb(228, 227, 227);
+    transition: 0.2s all;/*tiempo en que tarde en hacer la trasnformacion*/
+    opacity: 0.8;
+}

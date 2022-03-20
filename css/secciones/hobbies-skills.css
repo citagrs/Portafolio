@@ -1,14 +1,3 @@
-.hobbies-skills{
-    width: 90%;
-    margin: 0 auto;
-    border: 0 solid;
-    border-radius: 20px;
-    padding: 2%;
-    margin-top: 40px;
-    background-color: rgb(228, 227, 227);
-    transition: 0.2s all;/*tiempo en que tarde en hacer la trasnformacion*/
-    opacity: 0.8;
-}
 .hobbies-skills__hobbies__titulo,.hobbies-skills__skills__titulo{
     font-family: 'Acme', sans-serif;
     font-size: 2.5rem;
@@ -26,12 +15,32 @@
     display: flex;
     padding-top: 3rem;
     justify-content: space-around; /*para que quede uno al lado del otro*/
-}
-.hs-items__1{
-    padding-bottom: 4rem;
+    align-items: center;
 }
 .hs-item{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hs-item__imagen1{
+    background-image: url("../../media/Hobies/natacion.png");
+}
+.hs-item__imagen2{
+    background-image: url("../../media/Hobies/mascotas.png");
+}
+.hs-item__imagen3{
+    background-image: url("../../media/Hobies/peliculas.svg");
+}
+.hs-item__imagen4{
+    background-image: url("../../media/Hobies/comida_rapida.png");
+}
+.imagen__hobbie{
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.hs-items__1{
+    padding-bottom: 4rem;
 }
 .hs-item__titulo{
     font-size: 1.3rem;
@@ -62,4 +71,7 @@
 .hs-item__skill__imagen5{
     background-image: url("../../media/skills/java.png");
     background-size: cover;
+}
+.hs-item__skill__imagen6{
+    background-image: url("../../media/skills/sql.png");
 }
