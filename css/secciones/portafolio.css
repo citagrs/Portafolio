@@ -1,14 +1,15 @@
 .porta{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 0 5rem;
+    padding: 0 5rem 0 5rem;
     margin-top: 0;
+    justify-content: center;
 }
 .portafolio{
     display: flex;
     flex-direction: column;
     margin: 2rem 1.5rem 5rem 1.5rem;
-    width: 25%;
+    width: 40%;
     align-items: center;
     text-align: center;
     border-radius: 4%;
@@ -29,6 +30,11 @@
     margin-bottom: 1rem;
     padding: 0 0 0 2.5rem
 }
+.imagen__portafolio__p{
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .portafolio_subtitulo{
     font-size: 1rem;
     font-weight: 600;
@@ -41,10 +47,15 @@
     line-height: 1;
 }
 .portafolio__botton{
+    text-align: center;
     margin: 1rem 0 1rem 0;
-    text-transform: lowercase;
+    width: 5rem;
+    text-transform:capitalize;
     padding: 4px 4px 4px 4px;
-    color: #ffffff;
     background-color: #0071BC;
     border-radius: 6px;
+}
+.portafolio__botton a{
+    color: #ffffff;
+    text-decoration: none;
 }
