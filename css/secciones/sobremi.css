@@ -48,10 +48,6 @@
 .sobremi__redes__item img:hover{
     transform: scale(1.1);
 }
-.sobremi:hover{
-    background-color: rgb(255, 255, 255);
-    opacity: 1;
-}
 .sobremi__parte2__titulo{
     font-size: 2.5rem;
     text-transform: uppercase;
