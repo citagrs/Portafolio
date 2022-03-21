@@ -1,0 +1,50 @@
+.porta{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 5rem;
+    margin-top: 0;
+}
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem 5rem 1.5rem;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 4%;
+}
+.portafolio__imagen{
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 2rem 0 2rem 0;
+
+}
+.imagen__portafolio{
+    width: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 0 0 2.5rem
+}
+.portafolio_subtitulo{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+.descripcion{
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
+}
+.portafolio__botton{
+    margin: 1rem 0 1rem 0;
+    text-transform: lowercase;
+    padding: 4px 4px 4px 4px;
+    color: #ffffff;
+    background-color: #0071BC;
+    border-radius: 6px;
+}

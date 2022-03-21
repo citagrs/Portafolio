@@ -75,3 +75,6 @@
 .hs-item__skill__imagen6{
     background-image: url("../../media/skills/sql.png");
 }
+.hobbies-skills__skills__titulo{
+    text-shadow: 0.1rem 0.1rem #333;
+}
