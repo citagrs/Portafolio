@@ -1,3 +1,6 @@
+.menu__movil{
+    display: none;
+}
 .cabecera{
     background-color:rgb(32, 58, 58);
     align-items: center;
@@ -30,4 +33,29 @@
 }
 .cabecera__item a:hover{ /*cuando pasa el mouse "hover"*/
     color: cornflowerblue;
+}
+@media screen and (max-width:480px){
+    .cabecera{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    .cabecera__lista__menu{
+        display: ruby;
+    }
+    .cabecera__item{
+        margin: 10px 0 10px 0;
+
+
+    }
+    .cabecera__item a{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 10px;
+        border-right: 2px solid #ffffff;
+        padding: 0px 5px 0px 5px;
+    }
+    .cabecera__logo{
+        display: none;
+    }
+
 }

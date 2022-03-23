@@ -3,3 +3,27 @@
     filter: blur(2px);
    filter: brightness(50%);
 }
+.titular{
+    display: none;
+}
+@media screen and (max-width:480px){
+    .banner{
+        display: none;
+    }
+    .banner__movil{
+        background-image: url(../../../media/banner.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titular{
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: 'Titillium Web', sans-serif;
+        text-transform: uppercase;
+    }
+}

@@ -78,3 +78,25 @@
 .hobbies-skills__skills__titulo{
     text-shadow: 0.1rem 0.1rem #333;
 }
+@media screen and (max-width:480px) {
+    .hs-items{
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .hs-item__skill__imagen5{
+        width: 8rem;
+    }
+    .hs-item__skill__imagen6{
+        width: 8rem;
+    }
+    .imagen__skill{
+        border-radius: 50%;
+        border: 4px solid black;
+    }
+    .hs__imagen{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    
+}
