@@ -28,6 +28,9 @@
   }
   
   @media screen and (max-width: 480px) {
+    .footer{
+      width: 100%;
+    }
     .footer__imagen img{
       margin: 0 30px 0 30px;
       width: 3rem;
