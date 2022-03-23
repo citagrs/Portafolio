@@ -59,6 +59,10 @@
     color: #ffffff;
     text-decoration: none;
 }
+.portafolio__botton a:hover{
+    color: black;
+}
+}
 @media screen and (max-width: 480px) {
     
     .portafolio_subtitulo{
