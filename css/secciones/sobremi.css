@@ -69,6 +69,9 @@
   .sobremi__foto {
     width: 80%;
   }
+  .sobremi__datos__lista{
+    width: 90%;
+  }
   .sobremi__titulo {
     font-size: 3rem;
     text-align: center;
@@ -80,6 +83,7 @@
   .sobremi__datos {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    width: 100vw;
   }
   .sobremi__redes__item img {
     width: 50%;
