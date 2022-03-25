@@ -30,9 +30,22 @@
 @media screen and (max-width:480px) {
     .formulario__input{
         width: 90%;
+        font-size: 1.2rem;
+        border-radius: 8px;
     }
     
     .formulario__cuadro{
         width: 70%;
+        border-radius: 8px;
+    }
+    .formulario__label{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .formulario__enviar{
+        width: 10rem;
+        font-size: 1.5rem;
+        margin: 0 3rem0 3rem 0;
+        height: 3rem;
     }
 }
